@@ -1,7 +1,7 @@
 import  React, {useContext, useEffect, useState } from 'react'
 import { Navigate, Outlet } from 'react-router-dom'
 import Navbar from '../Components/Navbar';
-// import Footer from '../Components/Footer';
+import MarketplaceFooter from '../Components/Footer';
 // import FloatingActionContact from '../Components/FloatingActionContact';
 // import ScrollToTop from '../Components/ScrollToTop';
 // import ProtectedRoute from '../lib/ProtectedRoute.jsx';
@@ -49,7 +49,7 @@ const Layout = () =>{
         <Outlet/>
        </div>
        <div className='top-5'>
-        {/* <Footer/> */}
+        <MarketplaceFooter/>
        </div>
        {/* <FloatingActionContact/> */}
      </div>
