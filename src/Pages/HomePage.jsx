@@ -3,6 +3,7 @@ import HeroSection from '../Components/HeroSection';
 import PetGridSection from '../Components/PetGridSection';
 import MarketplaceProcess from '../Components/MarketplaceProcess';
 import TrustAndReviews from '../Components/TrustAndReviews';
+import MarketplaceCTA from '../Components/MarketplaceCTA';
 const HomePage = () => {
   return (
    <div>  
@@ -13,6 +14,7 @@ const HomePage = () => {
         <PetGridSection/>
         <MarketplaceProcess/>
         <TrustAndReviews/>
+        <MarketplaceCTA/>
       </main>    
     </div>
   );
