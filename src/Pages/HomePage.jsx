@@ -1,6 +1,7 @@
 import {React} from 'react';
 import HeroSection from '../Components/HeroSection';
 import PetGridSection from '../Components/PetGridSection';
+import MarketplaceProcess from '../Components/MarketplaceProcess';
 const HomePage = () => {
   return (
    <div>  
@@ -9,6 +10,7 @@ const HomePage = () => {
          <HeroSection/>
         </section>
         <PetGridSection/>
+        <MarketplaceProcess/>
       </main>    
     </div>
   );
