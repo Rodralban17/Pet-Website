@@ -2,6 +2,7 @@ import {React} from 'react';
 import HeroSection from '../Components/HeroSection';
 import PetGridSection from '../Components/PetGridSection';
 import MarketplaceProcess from '../Components/MarketplaceProcess';
+import TrustAndReviews from '../Components/TrustAndReviews';
 const HomePage = () => {
   return (
    <div>  
@@ -11,6 +12,7 @@ const HomePage = () => {
         </section>
         <PetGridSection/>
         <MarketplaceProcess/>
+        <TrustAndReviews/>
       </main>    
     </div>
   );
