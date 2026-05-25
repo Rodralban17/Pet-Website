@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { name: "Home", href: "#" },
-  { name: "Marketplace", href: "#" },
+  { name: "Home", href: "/" },
+  { name: "Marketplace", href: "/marketplace" },
   { name: "Resources", href: "#" },
   { name: "Breeder Guide", href: "#" },
   { name: "Community", href: "#" },

@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import Layout from "./Pages/Layout";
 import HomePage from "./Pages/HomePage";
+import MarketplaceCatalog from "./Pages/MarketplaceCatalog";
 // import AirFreightPage from "./Pages/AirFreight";
 // import AboutUsPage from "./Pages/AboutUsPage";
 // import TrackingPage from "./Pages/TrackingPage";
@@ -27,6 +28,10 @@ const App = () =>{
           path: "/",
           element: <HomePage/>,
         },
+        {
+          path: "/marketplace",
+          element: <MarketplaceCatalog/>
+        }
       ]
     },
     // {
