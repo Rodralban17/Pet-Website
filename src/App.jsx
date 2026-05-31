@@ -7,13 +7,7 @@ import Layout from "./Pages/Layout";
 import HomePage from "./Pages/HomePage";
 import MarketplaceCatalog from "./Pages/MarketplaceCatalog";
 import AdoptionProcessPage from "./Pages/AdoptionProcessPage";
-// import AirFreightPage from "./Pages/AirFreight";
-// import AboutUsPage from "./Pages/AboutUsPage";
-// import TrackingPage from "./Pages/TrackingPage";
-// import SeaFreightPage from "./Pages/OceanFreight";
-// import RoadFreightPage from "./Pages/RoadFreight";
-// import TrainFreightPage from "./Pages/TrainFreight";
-// import SmartWarehousingPage from "./Pages/SmartWarehousing";
+import EmergencyPage from "./Pages/EmergencyPage";
 // import LoginPage from "./Pages/LoginPage";
 // import RegisterPage from "./Pages/RegisterPage";
 // import Dashboard from "./Pages/Dashboard";
@@ -36,6 +30,10 @@ const App = () =>{
         {
           path: "/adoption-process",
           element: <AdoptionProcessPage/>
+        },
+        {
+          path: "/emergency",
+          element: <EmergencyPage/>
         }
       ]
     },
