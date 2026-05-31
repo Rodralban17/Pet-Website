@@ -2,6 +2,7 @@ import {React} from 'react';
 import AdoptionHeader from '../Components/AdoptionHeader';
 import InteractivePlacementSteps from '../Components/AdopotionSteps';
 import RequiredDocumentation from '../Components/RequiredDocumentation';
+import CostCalculator from '../Components/CostCalculator';
 const AdoptionProcessPage = () => {
   return (
    <div>  
@@ -11,6 +12,7 @@ const AdoptionProcessPage = () => {
         </section>
         <InteractivePlacementSteps/>
         <RequiredDocumentation/>
+        <CostCalculator/>
       </main>    
     </div>
   );
