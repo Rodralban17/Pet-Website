@@ -6,6 +6,7 @@ import {
 import Layout from "./Pages/Layout";
 import HomePage from "./Pages/HomePage";
 import MarketplaceCatalog from "./Pages/MarketplaceCatalog";
+import AdoptionProcessPage from "./Pages/AdoptionProcessPage";
 // import AirFreightPage from "./Pages/AirFreight";
 // import AboutUsPage from "./Pages/AboutUsPage";
 // import TrackingPage from "./Pages/TrackingPage";
@@ -31,6 +32,10 @@ const App = () =>{
         {
           path: "/marketplace",
           element: <MarketplaceCatalog/>
+        },
+        {
+          path: "/adoption-process",
+          element: <AdoptionProcessPage/>
         }
       ]
     },

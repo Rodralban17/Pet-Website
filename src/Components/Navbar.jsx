@@ -6,7 +6,7 @@ const navLinks = [
   { name: "Home", href: "/" },
   { name: "Marketplace", href: "/marketplace" },
   { name: "Resources", href: "#" },
-  { name: "Breeder Guide", href: "#" },
+  { name: "Adoption Process", href: "/adoption-process" },
   { name: "Community", href: "#" },
 ];
 
