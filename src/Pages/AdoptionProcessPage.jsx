@@ -1,6 +1,7 @@
 import {React} from 'react';
 import AdoptionHeader from '../Components/AdoptionHeader';
 import InteractivePlacementSteps from '../Components/AdopotionSteps';
+import RequiredDocumentation from '../Components/RequiredDocumentation';
 const AdoptionProcessPage = () => {
   return (
    <div>  
@@ -9,6 +10,7 @@ const AdoptionProcessPage = () => {
          <AdoptionHeader/>
         </section>
         <InteractivePlacementSteps/>
+        <RequiredDocumentation/>
       </main>    
     </div>
   );
