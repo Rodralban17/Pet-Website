@@ -1,6 +1,7 @@
 import {React} from 'react';
 import EmergencyHero from '../Components/EmergencyHero';
 import EmergencyActionsDashboard from '../Components/EmergencyActionsDashboard';
+import EmergencySymptomChecker from '../Components/EmergencySymptomChecker';
 const EmergencyPage = () => {
   return (
    <div>  
@@ -9,6 +10,7 @@ const EmergencyPage = () => {
          <EmergencyHero />
         </section>
         <EmergencyActionsDashboard />
+        <EmergencySymptomChecker />
       </main>    
     </div>
   );
