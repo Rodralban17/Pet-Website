@@ -2,6 +2,8 @@ import {React} from 'react';
 import EmergencyHero from '../Components/EmergencyHero';
 import EmergencyActionsDashboard from '../Components/EmergencyActionsDashboard';
 import EmergencySymptomChecker from '../Components/EmergencySymptomChecker';
+import DisasterPreparednessGuide from '../Components/DisasterPreparednessGuide';
+import MarketplaceCTA from '../Components/MarketplaceCTA';
 const EmergencyPage = () => {
   return (
    <div>  
@@ -11,6 +13,8 @@ const EmergencyPage = () => {
         </section>
         <EmergencyActionsDashboard />
         <EmergencySymptomChecker />
+        <DisasterPreparednessGuide />
+        <MarketplaceCTA />
       </main>    
     </div>
   );

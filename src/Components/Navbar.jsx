@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-
+import { Link } from "react-router-dom";
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "Marketplace", href: "/marketplace" },
-  { name: "Resources", href: "#" },
   { name: "Adoption Process", href: "/adoption-process" },
   { name: "Emergency", href: "/emergency" },
 ];
@@ -75,13 +74,15 @@ const Navbar = () => {
 
         {/* --- Desktop Button --- */}
         <div className="hidden md:flex items-center">
+          <Link to="/marketplace">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-6 py-3 bg-orange-600 text-white rounded-lg font-bold shadow-md hover:bg-orange-700 transition"
           >
-            Sell A Bully
+            Explore A Bully
           </motion.button>
+          </Link>
         </div>
 
         {/* --- Mobile Menu Button --- */}
@@ -122,21 +123,22 @@ const Navbar = () => {
               ))}
 
               <div className="border-t border-gray-100 pt-6 mt-2 flex flex-col gap-4">
-                <motion.a
+                {/* <motion.a
                   variants={itemVariants}
                   href="#"
                   className="text-gray-800 text-lg font-bold"
                 >
                   Sign In
-                </motion.a>
-
+                </motion.a> */}
+                <Link to="/marketplace">
                 <motion.button
                   variants={itemVariants}
                   whileTap={{ scale: 0.95 }}
                   className="w-full text-center px-6 py-4 bg-orange-600 text-white rounded-lg font-extrabold shadow hover:bg-orange-700 transition"
                 >
-                  Sell A Bully
+                  Explore bully
                 </motion.button>
+                </Link>
               </div>
             </div>
           </motion.div>
