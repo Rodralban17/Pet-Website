@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const AdoptionHeader = () => {
   return (
-    <section className="relative bg-slate-950  py-20 px-6 overflow-hidden">
+    <section className="relative   py-20 px-6 overflow-hidden">
       
       {/* Visual background element - soft warm ambient radial light */}
       <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[00px] h-[500px] bg-amber-500/10 rounded-full blur-[120px] pointer-events-none" />
@@ -25,7 +25,7 @@ const AdoptionHeader = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-4xl sm:text-5xl md:text-6xl font-black text-white tracking-tight leading-none"
+            className="text-4xl sm:text-5xl md:text-6xl font-black text-black tracking-tight leading-none"
           >
             Finding Your Perfect <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-orange-500 to-amber-500">
