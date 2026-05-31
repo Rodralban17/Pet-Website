@@ -7,7 +7,7 @@ const navLinks = [
   { name: "Marketplace", href: "/marketplace" },
   { name: "Resources", href: "#" },
   { name: "Adoption Process", href: "/adoption-process" },
-  { name: "Community", href: "#" },
+  { name: "Emmergency", href: "#" },
 ];
 
 const Navbar = () => {

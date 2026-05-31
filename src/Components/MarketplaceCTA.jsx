@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const MarketplaceCTA = () => {
   return (
@@ -54,6 +55,7 @@ const MarketplaceCTA = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4"
         >
           {/* Main Marketplace Button */}
+          <Link to="/marketplace">
           <motion.button
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.98 }}
@@ -64,18 +66,8 @@ const MarketplaceCTA = () => {
             </svg>
             Explore Marketplace
           </motion.button>
-
-          {/* Breeder Sign Up Button */}
-          <motion.button
-            whileHover={{ scale: 1.05, y: -2, backgroundColor: "rgba(255,255,255,0.08)" }}
-            whileTap={{ scale: 0.98 }}
-            className="w-full sm:w-auto px-8 py-4 bg-transparent border-2 border-slate-700 text-white font-black rounded-xl transition flex items-center justify-center gap-2 text-base"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-5 h-5">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-            </svg>
-            Register as Breeder
-          </motion.button>
+          </Link>
+          
         </motion.div>
 
         {/* --- Lower Trust Bullet Points --- */}
